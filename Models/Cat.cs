@@ -11,12 +11,12 @@ namespace WpfTappancsHotel.Models
         }
         public override string Speak()
         {
-            return "Miau! Kutya vagyok!";
+            return "Miau! Macska vagyok!";
         }
         public override string Play()
         {
             ChangeStats(-8, 20, -10);
-            return $"{Name} a fonalgyombojaggal játszott! + 20 jókedv";
+            return $"{Name} a fonálgombolyaggal játszott! + 20 jókedv";
         }
     }
 }

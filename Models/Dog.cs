@@ -11,12 +11,12 @@ namespace WpfTappancsHotel.Models
         }
         public override string Speak()
         {
-          return "Vau-vau! Jöhet az érettségi?"; 
+            return "Vau-vau! Jöhet az érettségi?";
         }
         public override string Play()
         {
             ChangeStats(-14, 30, -20);
-            return $"{Name} boldogan laddázott! + 30 jókedv";
+            return $"{Name} boldogan labdázott! + 30 jókedv";
         }
     }
 }

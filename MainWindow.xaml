@@ -19,8 +19,8 @@
             <Border Grid.Row="0" Background="#493282" CornerRadius="15" Padding="18">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
 
                     <StackPanel Orientation="Horizontal">
